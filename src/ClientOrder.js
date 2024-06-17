@@ -449,6 +449,7 @@ function OrderForm({productInfo, fetch}) {
                                         name="note"
                                         value={note}
                                         onChange={e => setNote(e.target.value)}
+                                        placeholder='e.g. 不用湯匙'
                                     />
                                 </div>
                                 <div className="formEntry">
