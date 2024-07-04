@@ -95,6 +95,16 @@ const SourceSales = () => {
                             <td>{statistics.yzb[0]}</td>
                             <td>{statistics.yzb[1]}</td>
                         </tr>
+                        <tr>
+                            <td>毬可Choco</td>
+                            <td>{statistics.qk[0]}</td>
+                            <td>{statistics.qk[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>蘭老師</td>
+                            <td>{statistics.lls[0]}</td>
+                            <td>{statistics.lls[1]}</td>
+                        </tr>    
                     </tbody>
                 </table>
             </div>
