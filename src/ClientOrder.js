@@ -424,6 +424,8 @@ function OrderForm({productInfo, fetch}) {
                                         <option value="雲依姍">雲依姍</option>
                                         <option value="小米兒">小米兒</option>
                                         <option value="宇治波">宇治波</option>
+                                        <option value="毬可Choco">毬可Choco</option>
+                                        <option value="蘭老師">蘭老師</option>
                                         <option value="被蛇蛇拐來的">被蛇蛇拐來的</option>
                                         <option value="其他">其他</option>
                                     </select>
