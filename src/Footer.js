@@ -21,7 +21,8 @@ function Footer() {
                         target="_blank" rel="noopener noreferrer">
                             911屏東縣竹田鄉洲中路42-1號
                         </a>
-                        </p>
+                    </p>
+                    <p>統一編號：94306243</p>
                     <p>嘶內嗑私廚甜品工作室</p>
                 </div>
                 <div className="iconBox">
