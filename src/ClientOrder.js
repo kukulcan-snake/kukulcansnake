@@ -65,8 +65,11 @@ function OrderForm({productInfo, fetch}) {
         const {totalQuantity, totalPrice} = items.reduce((acc, item) => {
             const correspondingObject = productInfo.products.find(product => product.name === item.option);
 
+            const non_pudding = ["便攜保冷袋(可裝6個)"];
             if (correspondingObject && item.value >= 1) {
-                acc.totalQuantity += item.value;
+                if (!non_pudding.includes(item.option)) {
+                    acc.totalQuantity += item.value;
+                }
                 acc.totalPrice += correspondingObject.price * item.value;
             }
 
