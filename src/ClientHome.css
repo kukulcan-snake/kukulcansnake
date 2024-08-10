@@ -167,3 +167,8 @@ p {
     max-width: 800px;
     /* height: 100%; */
 }
+
+.certImg {
+    width: 50vw;
+    max-width: 500px;
+}
