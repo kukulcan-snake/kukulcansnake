@@ -65,9 +65,14 @@ function OrderForm({productInfo, fetch}) {
         const {totalQuantity, totalPrice} = items.reduce((acc, item) => {
             const correspondingObject = productInfo.products.find(product => product.name === item.option);
 
-            const non_pudding = ["便攜保冷袋(可裝6個)"];
+            const special_items = {"便攜保冷袋(可裝6個)": 0,
+                                   "選擇障礙組合包(5杯布丁+5杯微醺布丁)": 10,
+                                   "酒鬼選擇障礙區(8杯酒布丁)": 8,
+                                   "裝醉組合包(10個無酒精布丁)": 10};
             if (correspondingObject && item.value >= 1) {
-                if (!non_pudding.includes(item.option)) {
+                if (special_puddings.hasOwnProperty(item.option)) {
+                    acc.totalQuantity += special_puddings[item.option] * item.value;
+                } else {
                     acc.totalQuantity += item.value;
                 }
                 acc.totalPrice += correspondingObject.price * item.value;
