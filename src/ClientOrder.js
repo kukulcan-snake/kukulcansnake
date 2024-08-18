@@ -70,8 +70,8 @@ function OrderForm({productInfo, fetch}) {
                                    "酒鬼選擇障礙區(8杯酒布丁)": 8,
                                    "裝醉組合包(10個無酒精布丁)": 10};
             if (correspondingObject && item.value >= 1) {
-                if (special_puddings.hasOwnProperty(item.option)) {
-                    acc.totalQuantity += special_puddings[item.option] * item.value;
+                if (special_items.hasOwnProperty(item.option)) {
+                    acc.totalQuantity += special_items[item.option] * item.value;
                 } else {
                     acc.totalQuantity += item.value;
                 }
