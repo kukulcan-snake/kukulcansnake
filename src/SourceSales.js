@@ -104,7 +104,22 @@ const SourceSales = () => {
                             <td>蘭老師</td>
                             <td>{statistics.lls[0]}</td>
                             <td>{statistics.lls[1]}</td>
-                        </tr>    
+                        </tr>
+                        <tr>
+                            <td>蚩尤</td>
+                            <td>{statistics.cy[0]}</td>
+                            <td>{statistics.cy[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>角落兔兔</td>
+                            <td>{statistics.jltt[0]}</td>
+                            <td>{statistics.jltt[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>黑暗企業</td>
+                            <td>{statistics.haqy[0]}</td>
+                            <td>{statistics.haqy[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
