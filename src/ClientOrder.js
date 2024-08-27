@@ -434,6 +434,10 @@ function OrderForm({productInfo, fetch}) {
                                         <option value="宇治波">宇治波</option>
                                         <option value="毬可Choco">毬可Choco</option>
                                         <option value="蘭老師">蘭老師</option>
+                                        <option value="蚩尤">蚩尤</option>
+                                        <option value="角落兔兔">角落兔兔</option>
+                                        <option value="黑暗企業">黑暗企業</option>
+                                        <option value="電玩慢打/雨煙">電玩慢打/雨煙</option>
                                         <option value="被蛇蛇拐來的">被蛇蛇拐來的</option>
                                         <option value="其他">其他</option>
                                     </select>
