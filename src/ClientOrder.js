@@ -222,7 +222,7 @@ function OrderForm({productInfo, fetch}) {
                 fee = 290 + 65 * ((totalQuantity - 80) / 10 + 1);
             }
 
-            if (totalQuantity >= 48) {
+            if (totalQuantity >= 24) {
                 fee = 0;
             }
         }
