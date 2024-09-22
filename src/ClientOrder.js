@@ -66,6 +66,7 @@ function OrderForm({productInfo, fetch}) {
             const correspondingObject = productInfo.products.find(product => product.name === item.option);
 
             const special_items = {"便攜保冷袋(可裝6個)": 0,
+                                   "手提禮盒": 0,
                                    "選擇障礙組合包(5杯布丁+5杯微醺布丁)": 10,
                                    "酒鬼選擇障礙區(8杯酒布丁)": 8,
                                    "裝醉組合包(10個無酒精布丁)": 10};
