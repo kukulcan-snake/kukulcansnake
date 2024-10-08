@@ -18,7 +18,7 @@ const ClientHome = () => {
             <div className="emptyBox whiteBg"></div>
             <div className="emptyBox whiteBg"></div>
             <div className="emptyBox whiteBg">
-                <p style={{color: "red"}}>10月廚房整修，訂單將推遲至11月發車</p> 
+                <p style={{color: "red", textAlign: "center"}}>10月廚房整修，訂單將推遲至11月發車</p> 
             </div>
             <div className="emptyBox whiteBg"></div>
             <div className="banner introBox grayBg">
