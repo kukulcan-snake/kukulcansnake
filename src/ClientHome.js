@@ -16,6 +16,11 @@ const ClientHome = () => {
                 <a href="/order" className="button">立即訂購</a>
             </div>
             <div className="emptyBox whiteBg"></div>
+            <div className="emptyBox whiteBg"></div>
+            <div className="emptyBox whiteBg">
+                <p style={{color: "red"}}>10月廚房整修，訂單將推遲至11月發車</p> 
+            </div>
+            <div className="emptyBox whiteBg"></div>
             <div className="banner introBox grayBg">
                 <div className="textBox">
                     <h1>用好料，編織味蕾上的歌謠</h1>
