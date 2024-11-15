@@ -22,11 +22,11 @@ const ClientHome = () => {
                 <a href="./image/taiwanPay.png" target="_blank" className="button">TAIWAN PAY</a>
             </div>
             <div className="emptyBox whiteBg"></div>
-            // <div className="emptyBox whiteBg"></div>
-            // <div className="emptyBox whiteBg">
-            //     <p style={{color: "red", textAlign: "center", fontSize: "25px"}}>公告：10月廚房整修，訂單將推遲至11月發車</p> 
-            // </div>
-            // <div className="emptyBox whiteBg"></div>
+            <!-- <div className="emptyBox whiteBg"></div>
+            <div className="emptyBox whiteBg">
+                <p style={{color: "red", textAlign: "center", fontSize: "25px"}}>公告：10月廚房整修，訂單將推遲至11月發車</p> 
+            </div>
+            <div className="emptyBox whiteBg"></div> -->
             <div className="banner introBox grayBg">
                 <div className="textBox">
                     <h1>用好料，編織味蕾上的歌謠</h1>
