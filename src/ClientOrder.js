@@ -213,17 +213,17 @@ function OrderForm({productInfo, fetch}) {
         else {
             if (totalQuantity === 0) {
                 fee = 0;
-            } else if (totalQuantity <= 10) {
+            } else if (totalQuantity <= 12) {
                 fee = 160;
-            } else if (totalQuantity <= 40) {
+            } else if (totalQuantity <= 48) {
                 fee = 225;
-            } else if (totalQuantity <= 80) {
+            } else if (totalQuantity <= 96) {
                 fee = 290;
             } else {
-                fee = 290 + 65 * ((totalQuantity - 80) / 10 + 1);
+                fee = 290 + 65 * ((totalQuantity - 96) / 12 + 1);
             }
 
-            if (totalQuantity >= 24) {
+            if (totalQuantity >= 48) {
                 fee = 0;
             }
         }
@@ -648,49 +648,6 @@ function OrderForm({productInfo, fetch}) {
                             <h1>訂單確認</h1>
                         </div>
 
-                        {/* version 1 */}
-                        {/* <div className="confirmBox">
-                            <div className="infoConfirm">
-                                <p>訂購人資料：</p>
-                                <ul>
-                                    <li>姓名：{customerName}</li>
-                                    <li>電話：{customerPhone}</li>
-                                    <li>地址：{customerAddress}</li>
-                                    <li>管道：{source}</li>
-                                    {source === '其他' && <p>其他管道：{otherSource}</p>}
-                                    <li>備註：{note === '' ? "無" : note}</li>
-                                    <li>期望配送時間：{deliveryDate}</li>
-                                    <li>付款方式：{payment}</li>
-                                </ul>
-                            </div>
-                            <hr></hr>
-                            <div className="itemConfirm">
-                                <p>商品明細：</p>
-                                <ul>
-                                    {items.map(item => {
-                                        if (item.value > 0) {
-                                            return (
-                                                <li key={item.option}>
-                                                    {item.option} × {item.value}
-                                                </li>
-                                            );
-                                        }
-                                        return null;
-                                    })}
-                                </ul>
-                            </div>
-                            <hr></hr>
-                            <div className="priceConfirm">
-                                <p>金額確認：</p>
-                                <ul>
-                                    <li>布丁金額：{totalPrice}</li>
-                                    <li>運費：{calculateFee() === "會員免運" || calculateFee() === "地區免運" ? 0 : calculateFee()}</li>
-                                    <li>總金額：{calculateFee() === "會員免運" || calculateFee() === "地區免運" ? totalPrice : totalPrice + calculateFee()}</li>
-                                </ul>
-                            </div>
-                        </div> */}
-
-                        { /* version 2 */ }
                         <div className="confirmBox2">
                             <div className="infoConfirm">
                                 <p>訂購人資料：</p>
