@@ -17,9 +17,9 @@ const ClientHome = () => {
                 <div style={{width: "25px"}} />
                 <a href="/search" className="button">訂單查詢</a>
                 <div style={{width: "25px"}} />
-                <a href="./image/qr-code.png" target="_blank" className="button">LINE PAY</a>
+                <a href="./linePay.png" target="_blank" className="button">LINE PAY</a>
                 <div style={{width: "25px"}} />
-                <a href="./image/taiwanPay.png" target="_blank" className="button">TAIWAN PAY</a>
+                <a href="./taiwanPay.png" target="_blank" className="button">TAIWAN PAY</a>
             </div>
             <div className="emptyBox whiteBg"></div>
             <div className="banner introBox grayBg">
