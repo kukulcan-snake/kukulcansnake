@@ -140,6 +140,11 @@ const SourceSales = () => {
                             <td>{statistics.kah[0]}</td>
                             <td>{statistics.kah[1]}</td>
                         </tr>
+                        <tr>
+                            <td>狐依琉璃</td>
+                            <td>{statistics.hyll[0]}</td>
+                            <td>{statistics.hyll[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
