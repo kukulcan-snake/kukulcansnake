@@ -61,92 +61,97 @@ const SourceSales = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>厭世醫檢師</td>
+                            <td>1. 厭世醫檢師</td>
                             <td>{statistics.yjs[0]}</td>
                             <td>{statistics.yjs[1]}</td>
                         </tr>
                         <tr>
-                            <td>聽力師小真</td>
+                            <td>2. 聽力師小真</td>
                             <td>{statistics.tls[0]}</td>
                             <td>{statistics.tls[1]}</td>
                         </tr>
                         <tr>
-                            <td>時遊宇</td>
+                            <td>3. 時遊宇</td>
                             <td>{statistics.syy[0]}</td>
                             <td>{statistics.syy[1]}</td>
                         </tr>
                         <tr>
-                            <td>蔓蘿夏</td>
+                            <td>4. 蔓蘿夏</td>
                             <td>{statistics.mlx[0]}</td>
                             <td>{statistics.mlx[1]}</td>
                         </tr>
                         <tr>
-                            <td>雲依姍</td>
+                            <td>5. 雲依姍</td>
                             <td>{statistics.yys[0]}</td>
                             <td>{statistics.yys[1]}</td>
                         </tr>
                         <tr>
-                            <td>小米兒</td>
+                            <td>6. 小米兒</td>
                             <td>{statistics.xme[0]}</td>
                             <td>{statistics.xme[1]}</td>
                         </tr>
                         <tr>
-                            <td>宇治波</td>
+                            <td>7. 宇治波</td>
                             <td>{statistics.yzb[0]}</td>
                             <td>{statistics.yzb[1]}</td>
                         </tr>
                         <tr>
-                            <td>毬可Choco</td>
+                            <td>8. 毬可Choco</td>
                             <td>{statistics.qk[0]}</td>
                             <td>{statistics.qk[1]}</td>
                         </tr>
                         <tr>
-                            <td>蘭老師</td>
+                            <td>9. 蘭老師</td>
                             <td>{statistics.lls[0]}</td>
                             <td>{statistics.lls[1]}</td>
                         </tr>
                         <tr>
-                            <td>蚩尤</td>
+                            <td>10. 蚩尤</td>
                             <td>{statistics.cy[0]}</td>
                             <td>{statistics.cy[1]}</td>
                         </tr>
                         <tr>
-                            <td>角落兔兔</td>
+                            <td>11. 角落兔兔</td>
                             <td>{statistics.jltt[0]}</td>
                             <td>{statistics.jltt[1]}</td>
                         </tr>
                         <tr>
-                            <td>黑暗企業</td>
+                            <td>12. 黑暗企業</td>
                             <td>{statistics.haqy[0]}</td>
                             <td>{statistics.haqy[1]}</td>
                         </tr>
                         <tr>
-                            <td>電玩慢打/雨煙</td>
+                            <td>13. 電玩慢打/雨煙</td>
                             <td>{statistics.yy[0]}</td>
                             <td>{statistics.yy[1]}</td>
                         </tr>
                         <tr>
-                            <td>斑鳩話桑麻</td>
+                            <td>14. 斑鳩話桑麻</td>
                             <td>{statistics.hsm[0]}</td>
                             <td>{statistics.hsm[1]}</td>
                         </tr>
                         <tr>
-                            <td>安生</td>
+                            <td>15. 安生</td>
                             <td>{statistics.as[0]}</td>
                             <td>{statistics.as[1]}</td>
                         </tr>
                         <tr>
-                            <td>Kah</td>
+                            <td>16. Kah</td>
                             <td>{statistics.kah[0]}</td>
                             <td>{statistics.kah[1]}</td>
                         </tr>
                         <tr>
-                            <td>狐依琉璃</td>
+                            <td>17. 狐依琉璃</td>
                             <td>{statistics.hyll[0]}</td>
                             <td>{statistics.hyll[1]}</td>
                         </tr>
                         <tr>
-                            <td>咪咕幫</td>
+                            <td>18. 咪咕幫</td>
+                            <td>{statistics.mgb[0]}</td>
+                            <td>{statistics.mgb[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>19. 胖雞</td>
                             <td>{statistics.mgb[0]}</td>
                             <td>{statistics.mgb[1]}</td>
                         </tr>
