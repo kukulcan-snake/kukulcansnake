@@ -152,8 +152,18 @@ const SourceSales = () => {
                         </tr>
                         <tr>
                             <td>19. 胖雞</td>
-                            <td>{statistics.mgb[0]}</td>
-                            <td>{statistics.mgb[1]}</td>
+                            <td>{statistics.pj[0]}</td>
+                            <td>{statistics.pj[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>20. 小靜しずか</td>
+                            <td>{statistics.xj[0]}</td>
+                            <td>{statistics.xj[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>21. 茶茶狐</td>
+                            <td>{statistics.cch[0]}</td>
+                            <td>{statistics.cch[1]}</td>
                         </tr>
                     </tbody>
                 </table>
