@@ -215,6 +215,7 @@ const OrderList = ({orderInfo, orderDetailInfo, refreshOrderList}) => {
                         name="hideFinish"
                         onChange={handleHideFinish}
                         value="hide"
+                        checked
                     />
                     <label htmlFor="hideFinish">隱藏已完成訂單</label>
                 </div>
