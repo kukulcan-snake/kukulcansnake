@@ -170,6 +170,11 @@ const SourceSales = () => {
                             <td>{statistics.www[0]}</td>
                             <td>{statistics.www[1]}</td>
                         </tr>
+                        <tr>
+                            <td>23. 諾拉公主</td>
+                            <td>{statistics.nl[0]}</td>
+                            <td>{statistics.nl[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
