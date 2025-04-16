@@ -10,7 +10,7 @@ const OrderList = ({orderInfo, orderDetailInfo, refreshOrderList}) => {
     const [filterValue, setFilterValue] = useState('');   // State to hold the value for filtering
     const [sortKey, setSortKey] = useState(null);         // State to hold the sorting key
     const [sortOrder, setSortOrder] = useState('asc');    // State to hold the sorting order
-    const [hideFinished, setHideFinished] = useState(false);    // State to hold the status of checkbox [hide finished orders
+    const [hideFinished, setHideFinished] = useState(true);    // State to hold the status of checkbox [hide finished orders
 
     const handleFilterColumnChange = (e) => {
         setFilterColumn(e.target.value);
