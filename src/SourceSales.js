@@ -192,8 +192,8 @@ const SourceSales = () => {
                         </tr>
                         <tr>
                             <td>27. 人見烏拉拉</td>
-                            <td>{statistics.wll[0]}</td>
-                            <td>{statistics.wll[1]}</td>
+                            <td>{statistics.rjwll[0]}</td>
+                            <td>{statistics.rjwll[1]}</td>
                         </tr>
                         <tr>
                             <td>28. 吾貓</td>
