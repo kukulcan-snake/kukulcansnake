@@ -661,7 +661,9 @@ function OrderForm({productInfo, fetch}) {
 
                         <div className="stageText">
                             <h1>訂單確認</h1>
+                            <br/>
                             <h1 style={{ color: "blue" }}>確認完記得按最下方的送出按鈕！</h1>
+                            <br/>
                             <h1 style={{ color: "blue" }}>↓↓↓</h1>
                         </div>
 
