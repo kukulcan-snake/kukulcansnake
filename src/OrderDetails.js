@@ -49,7 +49,7 @@ const ViewOrderPage = ({productInfo, orderInfo, orderDetailInfo}) => {
                             <span>{order.expected_arrival_date}</span>
                             <span>{order.note}</span>
                             <span>{order.payment}</span>
-                            // {order.payment === "轉帳" && <span>{order.bank_account}</span>}
+                            /* {order.payment === "轉帳" && <span>{order.bank_account}</span>} */
                             <span>{order.bank_account}</span>
                         </div>
                     </div>
