@@ -584,14 +584,16 @@ function OrderForm({productInfo, fetch}) {
                                 </div>
 
                                 {payment === "line pay" && (
-                                    <div className="lineLinkBox">
-                                        <div>
-                                            <img src={require("./image/qr-code.png")} alt="qr_code" className="qr_code" />
-                                        </div>
-                                        <div>
-                                            <p style={{margin: "0px 15px 0px 5px", display: "inline"}}>或者</p>
-                                            <a href="https://line.me/ti/p/yMCeV3HcPw" target="_blank"
-                                            rel="noopener noreferrer">加入LINE好友</a>
+                                    <div>
+                                        <div className="lineLinkBox">
+                                            <div>
+                                                <img src={require("./image/qr-code.png")} alt="qr_code" className="qr_code" />
+                                            </div>
+                                            <div>
+                                                <p style={{margin: "0px 15px 0px 5px", display: "inline"}}>或者</p>
+                                                <a href="https://line.me/ti/p/yMCeV3HcPw" target="_blank"
+                                                rel="noopener noreferrer">加入LINE好友</a>
+                                            </div>
                                         </div>
                                         <div className="formEntry">
                                             <label htmlFor="customerBankAccount">手機末三碼： </label>
