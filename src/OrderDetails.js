@@ -37,6 +37,7 @@ const ViewOrderPage = ({productInfo, orderInfo, orderDetailInfo}) => {
                             <span>備註</span>
                             <span>付款方式</span>
                             {order.payment === "轉帳" && <span>帳號末五碼</span>}
+                            {order.payment !== "轉帳" && <span>手機末三碼</span>}
                         </div>
                         <div className='detailed-info-values'>
                             <span>{order.name}</span>
@@ -48,7 +49,8 @@ const ViewOrderPage = ({productInfo, orderInfo, orderDetailInfo}) => {
                             <span>{order.expected_arrival_date}</span>
                             <span>{order.note}</span>
                             <span>{order.payment}</span>
-                            {order.payment === "轉帳" && <span>{order.bank_account}</span>}
+                            // {order.payment === "轉帳" && <span>{order.bank_account}</span>}
+                            <span>{order.bank_account}</span>
                         </div>
                     </div>
                     {/* Add more order details as needed */}
