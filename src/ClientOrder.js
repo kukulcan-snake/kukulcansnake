@@ -26,6 +26,16 @@ function isValidAccount(str) {
     return true;
 }
 
+function isValidLastThreeDigits(str) {
+    if (str.length !== 3) return false;
+    for (let i = 0; i < str.length; i++) {
+        if (isNaN(parseInt(str[i]))) {
+            return false;
+        }
+    }
+    return true;
+}
+
 function OrderForm({productInfo, fetch}) {
     const [submitted, setSubmitted] = useState(false);
     const [step, setStep] = useState(1);
@@ -189,6 +199,8 @@ function OrderForm({productInfo, fetch}) {
                 if (!payment) newErrors.payment = "* 請選擇付款方式";
                 else if (payment === '轉帳' && !customerBankAccount) newErrors.customerBankAccount = "* 請填寫帳戶末五碼";
                 else if (payment === '轉帳' && !isValidAccount(customerBankAccount)) newErrors.customerBankAccountFormat = "* 帳戶末五碼格式錯誤";
+                else if (payment !== '轉帳' && !customerBankAccount) newErrors.customerLastThreeDigits = "* 請填寫手機末三碼";
+                else if (payment !== '轉帳' && !isValidLastThreeDigits(customerBankAccount)) newErrors.customerLastThreeDigitsFormat = "* 手機末三碼格式錯誤";
                 break;
             default:
                 break;
@@ -661,6 +673,8 @@ function OrderForm({productInfo, fetch}) {
                         {errors.payment && <p className="error">{errors.payment}</p>}
                         {errors.customerBankAccount && <p className="error">{errors.customerBankAccount}</p>}
                         {errors.customerBankAccountFormat && <p className="error">{errors.customerBankAccountFormat}</p>}
+                        {errors.customerLastThreeDigits && <p className="error">{errors.customerLastThreeDigits}</p>}
+                        {errors.customerLastThreeDigitsFormat && <p className="error">{errors.customerLastThreeDigitsFormat}</p>}
                         <div className="buttonBox">
                             <button onClick={lastStep}>上一步</button>
                             <button onClick={nextStep}>下一步</button>
