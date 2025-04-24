@@ -593,6 +593,17 @@ function OrderForm({productInfo, fetch}) {
                                             <a href="https://line.me/ti/p/yMCeV3HcPw" target="_blank"
                                             rel="noopener noreferrer">加入LINE好友</a>
                                         </div>
+                                        <div className="formEntry">
+                                            <label htmlFor="customerBankAccount">手機末三碼： </label>
+                                            <input
+                                                className="entryInputBox"
+                                                type="text"
+                                                id="customerBankAccount"
+                                                name="customerBankAccount"
+                                                value={customerBankAccount}
+                                                onChange={e => setCustomerBankAccount(e.target.value)}
+                                            />
+                                        </div>
                                     </div>
                                 )}
 
@@ -602,6 +613,17 @@ function OrderForm({productInfo, fetch}) {
                                             <div>
                                                 <img src={require("./image/taiwanPay.png")} alt="qr_code" className="qr_code" />
                                             </div>
+                                        </div>
+                                        <div className="formEntry">
+                                            <label htmlFor="customerBankAccount">手機末三碼： </label>
+                                            <input
+                                                className="entryInputBox"
+                                                type="text"
+                                                id="customerBankAccount"
+                                                name="customerBankAccount"
+                                                value={customerBankAccount}
+                                                onChange={e => setCustomerBankAccount(e.target.value)}
+                                            />
                                         </div>
                                     </div>
                                 )}
