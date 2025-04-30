@@ -210,6 +210,11 @@ const SourceSales = () => {
                             <td>{statistics.kzxs[0]}</td>
                             <td>{statistics.kzxs[1]}</td>
                         </tr>
+                        <tr>
+                            <td>31. 蝦蝦醬</td>
+                            <td>{statistics.xxj[0]}</td>
+                            <td>{statistics.xxj[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
