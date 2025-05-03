@@ -215,10 +215,11 @@ function OrderForm({productInfo, fetch}) {
 
     function calculateFee() {
         let fee = 0;
-        if (customerAddress.includes("竹田鄉") ||
-            customerAddress.includes("屏東市") ||
-            customerAddress.includes("潮州鎮") ||
-            customerAddress.includes("萬丹鄉") ||
+        if (
+            // customerAddress.includes("竹田鄉") ||
+            // customerAddress.includes("屏東市") ||
+            // customerAddress.includes("潮州鎮") ||
+            // customerAddress.includes("萬丹鄉") ||
             customerAddress.includes("自取")){
             fee = "地區免運";
         }
