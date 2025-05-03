@@ -215,6 +215,21 @@ const SourceSales = () => {
                             <td>{statistics.xxj[0]}</td>
                             <td>{statistics.xxj[1]}</td>
                         </tr>
+                        <tr>
+                            <td>32. 吃貨少女あか</td>
+                            <td>{statistics.chsn[0]}</td>
+                            <td>{statistics.chsn[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>33. 藍妹摁係密魯</td>
+                            <td>{statistics.lmexml[0]}</td>
+                            <td>{statistics.lmexml[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>34. 北宮雨音</td>
+                            <td>{statistics.bgyy[0]}</td>
+                            <td>{statistics.bgyy[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
