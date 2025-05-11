@@ -230,6 +230,51 @@ const SourceSales = () => {
                             <td>{statistics.bgyy[0]}</td>
                             <td>{statistics.bgyy[1]}</td>
                         </tr>
+                        <tr>
+                            <td>35. 阿薩姆</td>
+                            <td>{statistics.asm[0]}</td>
+                            <td>{statistics.asm[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>36. 墨谷</td>
+                            <td>{statistics.mogu[0]}</td>
+                            <td>{statistics.mogu[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>37. 亞曼皮卡曼</td>
+                            <td>{statistics.ympkm[0]}</td>
+                            <td>{statistics.ympkm[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>38. 荻珥 𝔇𝔢𝔞𝔯</td>
+                            <td>{statistics.dear[0]}</td>
+                            <td>{statistics.dear[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>39. 阿采</td>
+                            <td>{statistics.acai[0]}</td>
+                            <td>{statistics.acai[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>40. 璐娜莉亞</td>
+                            <td>{statistics.lnly[0]}</td>
+                            <td>{statistics.lnly[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>41. 可可洛希亞</td>
+                            <td>{statistics.kklxy[0]}</td>
+                            <td>{statistics.kklxy[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>42. 天竺鼠波比</td>
+                            <td>{statistics.tzsbb[0]}</td>
+                            <td>{statistics.tzsbb[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>43. e_shan__</td>
+                            <td>{statistics.eshan[0]}</td>
+                            <td>{statistics.eshan[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
