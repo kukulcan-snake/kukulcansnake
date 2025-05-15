@@ -473,15 +473,15 @@ function OrderForm({productInfo, fetch}) {
                                         <option value="吃貨少女あか">吃貨少女あか</option>
                                         <option value="藍妹摁係密魯">藍妹摁係密魯</option>
                                         <option value="北宮雨音">北宮雨音</option>
-                                        <option value="北宮雨音">阿薩姆</option>
-                                        <option value="北宮雨音">墨谷</option>
-                                        <option value="北宮雨音">亞曼皮卡曼</option>
-                                        <option value="北宮雨音">荻珥 𝔇𝔢𝔞𝔯</option>
-                                        <option value="北宮雨音">阿采</option>
-                                        <option value="北宮雨音">璐娜莉亞</option>
-                                        <option value="北宮雨音">可可洛希亞</option>
-                                        <option value="北宮雨音">天竺鼠波比</option>
-                                        <option value="北宮雨音">e_shan__</option>
+                                        <option value="阿薩姆">阿薩姆</option>
+                                        <option value="墨谷">墨谷</option>
+                                        <option value="亞曼皮卡曼">亞曼皮卡曼</option>
+                                        <option value="荻珥 𝔇𝔢𝔞𝔯">荻珥 𝔇𝔢𝔞𝔯</option>
+                                        <option value="阿采">阿采</option>
+                                        <option value="璐娜莉亞">璐娜莉亞</option>
+                                        <option value="可可洛希亞">可可洛希亞</option>
+                                        <option value="天竺鼠波比">天竺鼠波比</option>
+                                        <option value="e_shan__">e_shan__</option>
                                         <option value="被蛇蛇拐來的">被蛇蛇拐來的</option>
                                         <option value="其他">其他</option>
                                     </select>
