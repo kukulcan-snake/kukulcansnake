@@ -275,6 +275,56 @@ const SourceSales = () => {
                             <td>{statistics.eshan[0]}</td>
                             <td>{statistics.eshan[1]}</td>
                         </tr>
+                        <tr>
+                            <td>44. 吐司 Toasti</td>
+                            <td>{statistics.toasti[0]}</td>
+                            <td>{statistics.toasti[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>45. 鈴姆</td>
+                            <td>{statistics.lingmu[0]}</td>
+                            <td>{statistics.lingmu[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>46. 韵韵</td>
+                            <td>{statistics.yunyun[0]}</td>
+                            <td>{statistics.yunyun[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>47. 黑翼冰嵐</td>
+                            <td>{statistics.heiyibinglan[0]}</td>
+                            <td>{statistics.heiyibinglan[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>48. 蘇喜校長</td>
+                            <td>{statistics.suxi[0]}</td>
+                            <td>{statistics.suxi[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>49. 令勾lingo</td>
+                            <td>{statistics.lingo[0]}</td>
+                            <td>{statistics.lingo[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>50. 憩貓脆脆</td>
+                            <td>{statistics.qimaocuicui[0]}</td>
+                            <td>{statistics.qimaocuicui[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>51. 天天</td>
+                            <td>{statistics.tiantian[0]}</td>
+                            <td>{statistics.tiantian[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>52. 緋櫻櫻</td>
+                            <td>{statistics.feiyingying[0]}</td>
+                            <td>{statistics.feiyingying[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>53. 外星キ</td>
+                            <td>{statistics.waixingki[0]}</td>
+                            <td>{statistics.waixingki[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
