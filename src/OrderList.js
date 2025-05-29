@@ -248,7 +248,7 @@ const OrderList = ({orderInfo, orderDetailInfo, refreshOrderList}) => {
                     {sortedOrders.map(order => (
                         <tr key={order.order_id} style={{color: "#444444"}}>
                             <td><Link
-                                to={`/admin/order/${order.order_id}`}>{new Date(order.order_date).toLocaleString()}</Link>
+                                to={`/admin/order/${order.order_id}`}>{new Date(order.order_date).toLocaleString('zh-TW', {hour12: false})}</Link>
                             </td>
                             <td>{order.name}</td>
                             <td>{order.address}</td>
