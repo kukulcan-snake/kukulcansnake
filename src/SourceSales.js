@@ -377,8 +377,8 @@ const SourceSales = () => {
                         </tr>
                         <tr>
                             <td>63. 夜玄冥</td>
-                            <td>{statistics.ruibitutu[0]}</td>
-                            <td>{statistics.ruibitutu[1]}</td>
+                            <td>{statistics.yexuanming[0]}</td>
+                            <td>{statistics.yexuanming[1]}</td>
                         </tr>
                         <tr>
                             <td>64. 若祈</td>
