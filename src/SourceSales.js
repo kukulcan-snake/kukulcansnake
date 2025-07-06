@@ -360,6 +360,31 @@ const SourceSales = () => {
                             <td>{statistics.ruibitutu[0]}</td>
                             <td>{statistics.ruibitutu[1]}</td>
                         </tr>
+                        <tr>
+                            <td>60. 慕容小蝦</td>
+                            <td>{statistics.murongxiaoxia[0]}</td>
+                            <td>{statistics.murongxiaoxia[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>61. 潘渥丹</td>
+                            <td>{statistics.pandanwu[0]}</td>
+                            <td>{statistics.pandanwu[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>62. 番茄優縭</td>
+                            <td>{statistics.fanqieyouli[0]}</td>
+                            <td>{statistics.fanqieyouli[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>63. 夜玄冥</td>
+                            <td>{statistics.ruibitutu[0]}</td>
+                            <td>{statistics.ruibitutu[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>64. 若祈</td>
+                            <td>{statistics.ruoqi[0]}</td>
+                            <td>{statistics.ruoqi[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
