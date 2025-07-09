@@ -385,6 +385,31 @@ const SourceSales = () => {
                             <td>{statistics.ruoqi[0]}</td>
                             <td>{statistics.ruoqi[1]}</td>
                         </tr>
+                        <tr>
+                            <td>65. 小烈</td>
+                            <td>{statistics.xiaolie[0]}</td>
+                            <td>{statistics.xiaolie[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>66. 貝兒</td>
+                            <td>{statistics.beier[0]}</td>
+                            <td>{statistics.beier[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>67. 霓茶</td>
+                            <td>{statistics.nicha[0]}</td>
+                            <td>{statistics.nicha[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>68. 武柳先生</td>
+                            <td>{statistics.wuliuxiansheng[0]}</td>
+                            <td>{statistics.wuliuxiansheng[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>69. 朶菟菈</td>
+                            <td>{statistics.duotula[0]}</td>
+                            <td>{statistics.duotula[1]}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
