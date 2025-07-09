@@ -8,7 +8,7 @@ const ClientHome = () => {
             <div className='banner homeBox'>
                 <img src={require("./image/pudding2.jpg")} alt="homePageImg" className="homeImg"/>
                 <div className="title">
-                    <h1>嘶內嗑私廚手工甜品</h1>
+                    <h1>嘶內嗑甜品工作室</h1>
                     <p>每一口都是用心蒸煮的味道</p>
                 </div>
             </div>
