@@ -66,9 +66,9 @@ const SourceSales = () => {
                             <td>{statistics.yjs[1]}</td>
                         </tr>
                         <tr>
-                            <td>2. 聽力師小真</td>
-                            <td>{statistics.tls[0]}</td>
-                            <td>{statistics.tls[1]}</td>
+                            <td>2. 熙潞姆</td>
+                            <td>{statistics.CLM[0]}</td>
+                            <td>{statistics.CLM[1]}</td>
                         </tr>
                         <tr>
                             <td>3. 時遊宇</td>
