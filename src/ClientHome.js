@@ -1,3 +1,4 @@
+import certImage from "./image/certificate.png";
 import React from 'react';
 import './ClientHome.css';
 
@@ -40,7 +41,7 @@ const ClientHome = () => {
                 <img src={require("./image/menu2.jpg")} alt="menuImg2" className="menuImg"/>
             </div>
             <div className="banner menuBox whiteBg">
-                <img src={require("./image/certificate.png")} alt="certificate" className="certImg"/>
+                <img src={certImage} alt="certificate" className="certImg"/>
             </div>
             <div className="banner grayBg">
                 <p>下完訂單記得告訴蛇蛇歐:D</p>
