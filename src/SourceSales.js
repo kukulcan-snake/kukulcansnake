@@ -401,9 +401,9 @@ const SourceSales = () => {
                             <td>{statistics.nicha[1]}</td>
                         </tr>
                         <tr>
-                            <td>68. 武柳先生</td>
-                            <td>{statistics.wuliuxiansheng[0]}</td>
-                            <td>{statistics.wuliuxiansheng[1]}</td>
+                            <td>68. 楚非寶寶</td>
+                            <td>{statistics.CFBB[0]}</td>
+                            <td>{statistics.CFBB[1]}</td>
                         </tr>
                         <tr>
                             <td>69. 朶菟菈</td>
