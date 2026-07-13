@@ -346,7 +346,7 @@ const SourceSales = () => {
                             <td>{statistics.lingmu[1]}</td>
                         </tr>
                         <tr>
-                            <td>57. 羿天三葉</td>
+                            <td>57. 三天三葉</td>
                             <td>{statistics.yitiansanye[0]}</td>
                             <td>{statistics.yitiansanye[1]}</td>
                         </tr>
