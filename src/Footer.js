@@ -23,7 +23,8 @@ function Footer() {
                         </a>
                     </p>
                     <p>統一編號：94306243</p>
-                    <p>嘶內嗑私廚甜品工作室</p>
+                    <p>嘶內嗑甜品工作室</p>
+                    <p>食品業者登錄字號： T-20234151518-00000-2</p>
                 </div>
                 <div className="iconBox">
                     <a href="https://www.facebook.com/KUKULCANSNAKE/" target="_blank" rel="noopener noreferrer">
