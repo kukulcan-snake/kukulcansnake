@@ -161,7 +161,7 @@ const SourceSales = () => {
                             <td>{statistics.xj[1]}</td>
                         </tr>
                         <tr>
-                            <td>21. 茶茶狐</td>
+                            <td>21. 離緋緋</td>
                             <td>{statistics.cch[0]}</td>
                             <td>{statistics.cch[1]}</td>
                         </tr>
@@ -266,7 +266,7 @@ const SourceSales = () => {
                             <td>{statistics.kklxy[1]}</td>
                         </tr>
                         <tr>
-                            <td>42. 天竺鼠波比</td>
+                            <td>42. 天竺鼠波比奈可貓</td>
                             <td>{statistics.tzsbb[0]}</td>
                             <td>{statistics.tzsbb[1]}</td>
                         </tr>
@@ -286,7 +286,7 @@ const SourceSales = () => {
                             <td>{statistics.lingmu[1]}</td>
                         </tr>
                         <tr>
-                            <td>46. 韵韵</td>
+                            <td>46. 璉韵</td>
                             <td>{statistics.yunyun[0]}</td>
                             <td>{statistics.yunyun[1]}</td>
                         </tr>
