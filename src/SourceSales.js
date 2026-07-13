@@ -96,9 +96,9 @@ const SourceSales = () => {
                             <td>{statistics.eno[1]}</td>
                         </tr>
                         <tr>
-                            <td>8. 毬可Choco</td>
-                            <td>{statistics.qk[0]}</td>
-                            <td>{statistics.qk[1]}</td>
+                            <td>8. 地雷丸繪屋</td>
+                            <td>{statistics.DLW[0]}</td>
+                            <td>{statistics.DLW[1]}</td>
                         </tr>
                         <tr>
                             <td>9. 蘭老師</td>
