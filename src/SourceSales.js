@@ -86,9 +86,9 @@ const SourceSales = () => {
                             <td>{statistics.yys[1]}</td>
                         </tr>
                         <tr>
-                            <td>6. 小米兒</td>
-                            <td>{statistics.xme[0]}</td>
-                            <td>{statistics.xme[1]}</td>
+                            <td>6. 深夜不睡教教宗</td>
+                            <td>{statistics.nosleep[0]}</td>
+                            <td>{statistics.nosleep[1]}</td>
                         </tr>
                         <tr>
                             <td>7. 宇治波</td>
