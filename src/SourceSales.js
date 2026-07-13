@@ -409,11 +409,16 @@ const SourceSales = () => {
                             <td>69. 朶菟菈</td>
                             <td>{statistics.duotula[0]}</td>
                             <td>{statistics.duotula[1]}</td>
-     </tr>
+                        </tr>
                         <tr>
                             <td>70. 伊悠伊</td>
                             <td>{statistics.EUE[0]}</td>
                             <td>{statistics.EUE[1]}</td>
+                        </tr>
+                        <tr>
+                            <td>71. 頎海絲緹</td>
+                            <td>{statistics.WHFT[0]}</td>
+                            <td>{statistics.WHFT[1]}</td>
                         </tr>
                     </tbody>
                 </table>
