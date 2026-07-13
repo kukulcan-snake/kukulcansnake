@@ -41,7 +41,7 @@ function Footer() {
                     </a>
                 </div>
             </div>
-            <div className="rights">&copy; 嘶內嗑私廚手工甜品. All rights reserved.</div>
+            <div className="rights">&copy; 嘶內嗑甜品工作室. All rights reserved.</div>
         </footer>
     );
 }
