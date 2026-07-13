@@ -71,9 +71,9 @@ const SourceSales = () => {
                             <td>{statistics.CLM[1]}</td>
                         </tr>
                         <tr>
-                            <td>3. 時遊宇</td>
-                            <td>{statistics.syy[0]}</td>
-                            <td>{statistics.syy[1]}</td>
+                            <td>3. 猫飼ってる_</td>
+                            <td>{statistics.MS[0]}</td>
+                            <td>{statistics.MS[1]}</td>
                         </tr>
                         <tr>
                             <td>4. 蔓蘿夏</td>
