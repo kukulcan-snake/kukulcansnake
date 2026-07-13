@@ -101,9 +101,9 @@ const SourceSales = () => {
                             <td>{statistics.DLW[1]}</td>
                         </tr>
                         <tr>
-                            <td>9. 蘭老師</td>
-                            <td>{statistics.lls[0]}</td>
-                            <td>{statistics.lls[1]}</td>
+                            <td>9. 貝莉蒂絲</td>
+                            <td>{statistics.BLDS[0]}</td>
+                            <td>{statistics.BLDS[1]}</td>
                         </tr>
                         <tr>
                             <td>10. 蚩尤</td>
