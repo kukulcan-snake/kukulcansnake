@@ -106,39 +106,39 @@ const SourceSales = () => {
                             <td>{statistics.BLDS[1]}</td>
                         </tr>
                         <tr>
-                            <td>10. 蚩尤</td>
-                            <td>{statistics.cy[0]}</td>
-                            <td>{statistics.cy[1]}</td>
+                            <td>10. 明子</td>
+                            <td>{statistics.AKIKO[0]}</td>
+                            <td>{statistics.AKIKO[1]}</td>
                         </tr>
                         <tr>
-                            <td>11. 角落兔兔</td>
-                            <td>{statistics.jltt[0]}</td>
-                            <td>{statistics.jltt[1]}</td>
+                            <td>11. 提拉米蘇西</td>
+                            <td>{statistics.TLMSC[0]}</td>
+                            <td>{statistics.TLMSC[1]}</td>
                         </tr>
                         <tr>
-                            <td>12. 黑暗企業</td>
-                            <td>{statistics.haqy[0]}</td>
-                            <td>{statistics.haqy[1]}</td>
+                            <td>12. 霓夜姬</td>
+                            <td>{statistics.NAG[0]}</td>
+                            <td>{statistics.NAG[1]}</td>
                         </tr>
                         <tr>
-                            <td>13. 電玩慢打/雨煙</td>
-                            <td>{statistics.yy[0]}</td>
-                            <td>{statistics.yy[1]}</td>
+                            <td>13. 艾爾維娜</td>
+                            <td>{statistics.AIWN[0]}</td>
+                            <td>{statistics.AIWN[1]}</td>
                         </tr>
                         <tr>
-                            <td>14. 斑鳩話桑麻</td>
-                            <td>{statistics.hsm[0]}</td>
-                            <td>{statistics.hsm[1]}</td>
+                            <td>14. 蜜絲雪芙</td>
+                            <td>{statistics.MSCF[0]}</td>
+                            <td>{statistics.MSCF[1]}</td>
                         </tr>
                         <tr>
-                            <td>15. 安生</td>
-                            <td>{statistics.as[0]}</td>
-                            <td>{statistics.as[1]}</td>
+                            <td>15. 茉茉</td>
+                            <td>{statistics.MORII[0]}</td>
+                            <td>{statistics.MORII[1]}</td>
                         </tr>
                         <tr>
-                            <td>16. Kah</td>
-                            <td>{statistics.kah[0]}</td>
-                            <td>{statistics.kah[1]}</td>
+                            <td>16. 乖該</td>
+                            <td>{statistics.GG[0]}</td>
+                            <td>{statistics.GG[1]}</td>
                         </tr>
                         <tr>
                             <td>17. 狐依琉璃</td>
@@ -146,9 +146,9 @@ const SourceSales = () => {
                             <td>{statistics.hyll[1]}</td>
                         </tr>
                         <tr>
-                            <td>18. 咪咕幫</td>
-                            <td>{statistics.mgb[0]}</td>
-                            <td>{statistics.mgb[1]}</td>
+                            <td>18. 緹斯伊娜</td>
+                            <td>{statistics.TSIN[0]}</td>
+                            <td>{statistics.TSIN[1]}</td>
                         </tr>
                         <tr>
                             <td>19. 胖雞</td>
@@ -201,9 +201,9 @@ const SourceSales = () => {
                             <td>{statistics.wm[1]}</td>
                         </tr>
                         <tr>
-                            <td>29. 阿卡</td>
-                            <td>{statistics.ak[0]}</td>
-                            <td>{statistics.ak[1]}</td>
+                            <td>29. 玥音</td>
+                            <td>{statistics.AE[0]}</td>
+                            <td>{statistics.AE[1]}</td>
                         </tr>
                         <tr>
                             <td>30. 凱佐先生</td>
@@ -241,9 +241,9 @@ const SourceSales = () => {
                             <td>{statistics.mogu[1]}</td>
                         </tr>
                         <tr>
-                            <td>37. 亞曼皮卡曼</td>
-                            <td>{statistics.ympkm[0]}</td>
-                            <td>{statistics.ympkm[1]}</td>
+                            <td>37. 歩羽ふわ</td>
+                            <td>{statistics.HUWA[0]}</td>
+                            <td>{statistics.HUWA[1]}</td>
                         </tr>
                         <tr>
                             <td>38. 荻珥 𝔇𝔢𝔞𝔯</td>
@@ -271,9 +271,9 @@ const SourceSales = () => {
                             <td>{statistics.tzsbb[1]}</td>
                         </tr>
                         <tr>
-                            <td>43. e_shan__</td>
-                            <td>{statistics.eshan[0]}</td>
-                            <td>{statistics.eshan[1]}</td>
+                            <td>43. 狗咩咩</td>
+                            <td>{statistics.GOMM[0]}</td>
+                            <td>{statistics.GOMM[1]}</td>
                         </tr>
                         <tr>
                             <td>44. 吐司 Toasti</td>
@@ -291,9 +291,9 @@ const SourceSales = () => {
                             <td>{statistics.yunyun[1]}</td>
                         </tr>
                         <tr>
-                            <td>47. 黑翼冰嵐</td>
-                            <td>{statistics.heiyibinglan[0]}</td>
-                            <td>{statistics.heiyibinglan[1]}</td>
+                            <td>47. 卯月鈴菟</td>
+                            <td>{statistics.MALT[0]}</td>
+                            <td>{statistics.MALT[1]}</td>
                         </tr>
                         <tr>
                             <td>48. 蘇喜校長</td>
@@ -301,14 +301,14 @@ const SourceSales = () => {
                             <td>{statistics.suxi[1]}</td>
                         </tr>
                         <tr>
-                            <td>49. 令勾lingo</td>
-                            <td>{statistics.lingo[0]}</td>
-                            <td>{statistics.lingo[1]}</td>
+                            <td>49. 謙然若梦</td>
+                            <td>{statistics.MM[0]}</td>
+                            <td>{statistics.MM[1]}</td>
                         </tr>
                         <tr>
-                            <td>50. 憩貓脆脆</td>
-                            <td>{statistics.qimaocuicui[0]}</td>
-                            <td>{statistics.qimaocuicui[1]}</td>
+                            <td>50. 擔擔麵</td>
+                            <td>{statistics.DDM[0]}</td>
+                            <td>{statistics.DDM[1]}</td>
                         </tr>
                         <tr>
                             <td>51. 天天</td>
@@ -316,9 +316,9 @@ const SourceSales = () => {
                             <td>{statistics.tiantian[1]}</td>
                         </tr>
                         <tr>
-                            <td>52. 緋櫻櫻</td>
-                            <td>{statistics.feiyingying[0]}</td>
-                            <td>{statistics.feiyingying[1]}</td>
+                            <td>52. 影月</td>
+                            <td>{statistics.SMOON[0]}</td>
+                            <td>{statistics.SMOON[1]}</td>
                         </tr>
                         <tr>
                             <td>53. 外星キ</td>
@@ -326,19 +326,19 @@ const SourceSales = () => {
                             <td>{statistics.waixingki[1]}</td>
                         </tr>
                         <tr>
-                            <td>54. 茆糰糰</td>
-                            <td>{statistics.maotuantuan[0]}</td>
-                            <td>{statistics.maotuantuan[1]}</td>
+                            <td>54. 星依</td>
+                            <td>{statistics.SE[0]}</td>
+                            <td>{statistics.SE[1]}</td>
                         </tr>
                         <tr>
-                            <td>54. 白拓</td>
-                            <td>{statistics.baituo[0]}</td>
-                            <td>{statistics.baituo[1]}</td>
+                            <td>54. 紅梅</td>
+                            <td>{statistics.RADM[0]}</td>
+                            <td>{statistics.RADM[1]}</td>
                         </tr>
                         <tr>
-                            <td>55. 夢奈浠羽</td>
-                            <td>{statistics.mengnaixiyu[0]}</td>
-                            <td>{statistics.mengnaixiyu[1]}</td>
+                            <td>55. 彌彩</td>
+                            <td>{statistics.MCHI[0]}</td>
+                            <td>{statistics.MCHI[1]}</td>
                         </tr>
                         <tr>
                             <td>56. 鈴姆</td>
@@ -361,9 +361,9 @@ const SourceSales = () => {
                             <td>{statistics.ruibitutu[1]}</td>
                         </tr>
                         <tr>
-                            <td>60. 慕容小蝦</td>
-                            <td>{statistics.murongxiaoxia[0]}</td>
-                            <td>{statistics.murongxiaoxia[1]}</td>
+                            <td>60. 日日緹奈</td>
+                            <td>{statistics.ZZTN[0]}</td>
+                            <td>{statistics.ZZTN[1]}</td>
                         </tr>
                         <tr>
                             <td>61. 潘渥丹</td>
@@ -371,14 +371,14 @@ const SourceSales = () => {
                             <td>{statistics.pandanwu[1]}</td>
                         </tr>
                         <tr>
-                            <td>62. 番茄優縭</td>
-                            <td>{statistics.fanqieyouli[0]}</td>
-                            <td>{statistics.fanqieyouli[1]}</td>
+                            <td>62. 七咲</td>
+                            <td>{statistics.SSMILE[0]}</td>
+                            <td>{statistics.SSMILE[1]}</td>
                         </tr>
                         <tr>
-                            <td>63. 夜玄冥</td>
-                            <td>{statistics.yexuanming[0]}</td>
-                            <td>{statistics.yexuanming[1]}</td>
+                            <td>63. 陸路</td>
+                            <td>{statistics.LR[0]}</td>
+                            <td>{statistics.LR[1]}</td>
                         </tr>
                         <tr>
                             <td>64. 若祈</td>
@@ -386,9 +386,9 @@ const SourceSales = () => {
                             <td>{statistics.ruoqi[1]}</td>
                         </tr>
                         <tr>
-                            <td>65. 小烈</td>
-                            <td>{statistics.xiaolie[0]}</td>
-                            <td>{statistics.xiaolie[1]}</td>
+                            <td>65. 杯呱呱</td>
+                            <td>{statistics.BGG[0]}</td>
+                            <td>{statistics.BGG[1]}</td>
                         </tr>
                         <tr>
                             <td>66. 貝兒</td>
@@ -409,6 +409,11 @@ const SourceSales = () => {
                             <td>69. 朶菟菈</td>
                             <td>{statistics.duotula[0]}</td>
                             <td>{statistics.duotula[1]}</td>
+     </tr>
+                        <tr>
+                            <td>70. 伊悠伊</td>
+                            <td>{statistics.EUE[0]}</td>
+                            <td>{statistics.EUE[1]}</td>
                         </tr>
                     </tbody>
                 </table>
