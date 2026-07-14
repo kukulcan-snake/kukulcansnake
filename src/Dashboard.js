@@ -195,6 +195,7 @@ const OrderDashboard = ({productInfo, orderInfo, orderDetailInfo}) => {
                 salesBar.destroy();
             };
 
+         // eslint-disable-next-line react-hooks/exhaustive-deps
         }, [orderInfo.loading, orderInfo.loading, orderDetailInfo.loading]);
 
         const aggregateDataByProductAndMonth = (orders, orderDetails) => {
