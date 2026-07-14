@@ -123,20 +123,6 @@ const ClientRoutes = () => {
 };
 
 export default ClientRoutes;
-import React, {useEffect, useState} from 'react';
-import axios from "axios";
-import Ajv from 'ajv';
-
-import {Routes, Route} from 'react-router-dom';
-import * as schemas from './schemas';
-import {ClientLayout} from "./Layout";
-import ClientHome from "./ClientHome";
-import ProductsPage from "./ProductPage";
-import OrderForm from "./ClientOrder";
-import SearchOrderPage from "./ClientSearch";
-import FAQPage from "./ClientFAQ";
-import SourceSales from "./SourceSales";
-
 const url = 'https://script.google.com/macros/s/AKfycbxm7V8Y9af9txfn5nJAwl42DopwuS7OFRKOIeBF_1xZ6yTQZ_DhfJKYJ6kP7hfk_1u7/exec';
 
 
