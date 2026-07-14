@@ -38,6 +38,7 @@ const ClientRoutes = () => {
                 const validatedProducts = allProducts.filter(product => validate(product));
                 const filteredProducts = validatedProducts.filter(product => product.status === "available");
                 setProducts(filteredProducts);
+                console.log("最終存入 State 的產品數:", filteredProducts.length);
             } else {
                 console.error("收到的資料格式無法處理:", response.data);
             }
