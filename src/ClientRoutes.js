@@ -4,19 +4,26 @@ function ClientRoutes() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('https://script.google.com/macros/s/AKfycbxoqaMojjuhvz73CsczAl5820sMPilGMoHboQxKwOC23actQng0-gt-nKS4CNdja2wk/exec') // 請務必填入你 Apps Script 的最新部署網址
-      .then(res => res.json())
-      .then(data => {
-        if (Array.isArray(data)) {
-          console.log("從 GAS 拿到的所有產品:", data);
-          setProducts(data);
-        }
-      });
+    // 改用這裡的網址，這是我幫你整理的參數設定
+    fetch('https://script.google.com/macros/s/AKfycbxoqgMojjuhvz73CsczA15820sMPi1GMoHboQxKwOC23actQng0-gt-nkS4CNdja2wk/exec', {
+      method: 'GET',
+      mode: 'cors'
+    })
+    .then(res => res.json())
+    .then(data => {
+      console.log("資料已抓取:", data);
+      setProducts(data);
+    })
+    .catch(err => console.error("抓取失敗:", err));
   }, []);
 
   return (
     <div>
-      {/* https://kukulcansnake.vercel.app/order */}
+      {products.length > 0 ? (
+        <ul>{products.map(p => <li key={p.product_id}>{p.name}</li>)}</ul>
+      ) : (
+        <p>載入中...</p>
+      )}
     </div>
   );
 }
