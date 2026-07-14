@@ -18,7 +18,13 @@ function ClientOrder({ productInfo }) {
   }
   // ------------------
 
-  return (
+  return (<select>
+  {productInfo.map((product) => (
+    <option key={product.product_id} value={product.product_id}>
+      {product.name} - ${product.price}
+    </option>
+  ))}
+</select>
     <div className="order-form">
       <h1>訂單表單</h1>
       {/* 這裡是你原本的表單內容，我保留了你的狀態變數 */}
