@@ -23,7 +23,7 @@ const ClientRoutes = () => {
         }
     }, []);
 
-    const fetchProduct = async () => {
+   const fetchProduct = async () => {
         console.log("fetching product data...");
         setProductLoading(true);
         try {
@@ -33,7 +33,22 @@ const ClientRoutes = () => {
 
             if (typeof response.data === 'object' && response.data !== null) {
                 const allProducts = Object.values(response.data).flat();
-                console.log("從 GAS 拿到的所有產品原始資料:", allProducts); 
+                console.log("從 GAS 拿到的所有產品原始資料:", allProducts);
+
+                // 只在這裡宣告一次 ajv
+                const ajv = new Ajv();
+                const validate = ajv.compile(schemas.productSchema);
+                
+                // 這裡改為直接顯示所有產品，我們先確認資料出來了沒
+                // 如果畫面出現了，我們再把下面這行過濾條件解開
+                setProducts(allProducts); 
+            }
+        } catch (error) {
+            console.error('Error fetching products:', error);
+        } finally {
+            setProductLoading(false);
+        }
+    }; 
     
     const ajv = new Ajv();
     const validate = ajv.compile(schemas.productSchema);
