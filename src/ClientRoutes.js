@@ -23,7 +23,7 @@ const ClientRoutes = () => {
         }
     }, []);
 
-   const fetchProduct = async () => {
+    const fetchProduct = async () => {
         console.log("fetching product data...");
         setProductLoading(true);
         try {
@@ -34,32 +34,9 @@ const ClientRoutes = () => {
             if (typeof response.data === 'object' && response.data !== null) {
                 const allProducts = Object.values(response.data).flat();
                 console.log("從 GAS 拿到的所有產品原始資料:", allProducts);
-
-                // 只在這裡宣告一次 ajv
-                const ajv = new Ajv();
-                const validate = ajv.compile(schemas.productSchema);
                 
-                // 這裡改為直接顯示所有產品，我們先確認資料出來了沒
-                // 如果畫面出現了，我們再把下面這行過濾條件解開
+                // 這裡暫時直接 setProducts，確保資料能順利顯示
                 setProducts(allProducts); 
-            }
-        } catch (error) {
-            console.error('Error fetching products:', error);
-        } finally {
-            setProductLoading(false);
-        }
-    }; 
-    
-    const ajv = new Ajv();
-    const validate = ajv.compile(schemas.productSchema);
-                const ajv = new Ajv();
-                const validate = ajv.compile(schemas.productSchema);
-                const validatedProducts = allProducts.filter(product => validate(product));
-                const filteredProducts = validatedProducts.filter(product => product.status === "available");
-                setProducts(filteredProducts);
-                console.log("最終存入 State 的產品數:", filteredProducts.length);
-            } else {
-                console.error("收到的資料格式無法處理:", response.data);
             }
         } catch (error) {
             console.error('Error fetching products:', error);
@@ -69,7 +46,6 @@ const ClientRoutes = () => {
     };
 
     const fetchOrder = async (email = '', phone = '', name = '') => {
-        console.log("fetching order data...");
         try {
             const response = await axios.get(url + "?endpoint=orders/search&email=" + email + "&name=" + name + "&phone=" + phone);
             return response.data || [];
@@ -80,7 +56,6 @@ const ClientRoutes = () => {
     };
 
     const fetchCustomerNum = async (phone_number) => {
-        console.log("fetching customer order num...");
         try {
             const response = await axios.get(url + "?endpoint=customers/member-available/" + phone_number);
             return response.data;
