@@ -33,6 +33,10 @@ const ClientRoutes = () => {
 
             if (typeof response.data === 'object' && response.data !== null) {
                 const allProducts = Object.values(response.data).flat();
+                console.log("從 GAS 拿到的所有產品原始資料:", allProducts); 
+    
+    const ajv = new Ajv();
+    const validate = ajv.compile(schemas.productSchema);
                 const ajv = new Ajv();
                 const validate = ajv.compile(schemas.productSchema);
                 const validatedProducts = allProducts.filter(product => validate(product));
