@@ -25,7 +25,8 @@ const ProductsPage = ({ productInfo }) => {
         return groups;
     }, {});
 
-
+console.log("產品列表檢查:", productInfo);
+console.log("篩選後的產品內容:", filteredProducts);
     return (
     <div className="bg-banner">
         <div className="products-page">
