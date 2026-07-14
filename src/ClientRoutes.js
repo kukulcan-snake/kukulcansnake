@@ -31,14 +31,20 @@ const ClientRoutes = () => {
                 params: { endpoint: 'products' }
             });
 
-            if (Array.isArray(response.data)) {
+            // 修改後的解析邏輯
+            if (typeof response.data === 'object' && response.data !== null) {
+                // 將物件內所有分類的陣列合併為一個大陣列
+                const allProducts = Object.values(response.data).flat();
+                
                 const ajv = new Ajv();
                 const validate = ajv.compile(schemas.productSchema);
-                const validatedProducts = response.data.filter(product => validate(product));
+                
+                const validatedProducts = allProducts.filter(product => validate(product));
                 const filteredProducts = validatedProducts.filter(product => product.status === "available");
                 setProducts(filteredProducts);
             } else {
-                console.error("API 回傳格式錯誤:", response.data);
+                console.error("收到的資料格式無法處理:", response.data);
+            }
             }
         } catch (error) {
             console.error('Error fetching products:', error);
