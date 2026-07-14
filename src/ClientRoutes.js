@@ -30,12 +30,9 @@ const ClientRoutes = () => {
             const response = await axios.get(url, {
                 params: { endpoint: 'products' }
             });
-
-            if (typeof response.data === 'object' && response.data !== null) {
-                const allProducts = Object.values(response.data).flat();
-                console.log("從 GAS 拿到的所有產品原始資料:", allProducts);
-                
-                // 這裡暫時直接 setProducts，確保資料能順利顯示
+const allProducts = Object.values(response.data).flat();
+                console.log("從 GAS 拿到的所有產品:", allProducts);
+                setProducts(allProducts);
                 setProducts(allProducts); 
             }
         } catch (error) {
