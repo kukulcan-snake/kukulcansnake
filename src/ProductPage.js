@@ -17,13 +17,15 @@ const ProductsPage = ({ productInfo }) => {
     }
 
 
-    // Group products by description
-    const groupedProducts = filteredProducts.reduce((groups, product) => {
-        const group = groups[product.description] || [];
-        group.push(product);
-        groups[product.description] = group;
-        return groups;
-    }, {});
+   // 把第 20-26 行改為：
+const groupedProducts = filteredProducts.reduce((groups, product) => {
+    // 強制給一個分類名稱，確保至少能分組
+    const key = product.description || product.category || "未分類商品"; 
+    const group = groups[key] || [];
+    group.push(product);
+    groups[key] = group;
+    return groups;
+}, {});
 
 console.log("產品列表檢查:", productInfo);
 console.log("篩選後的產品內容:", filteredProducts);
