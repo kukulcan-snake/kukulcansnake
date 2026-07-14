@@ -36,7 +36,7 @@ function isValidLastThreeDigits(str) {
     return true;
 }
 
-function OrderForm({productInfo, fetch}) {
+function OrderForm({productInfo}) { // 把 fetch 從參數裡刪除
     const [submitted, setSubmitted] = useState(false);
     const [step, setStep] = useState(1);
     const [items, setItems] = useState([{option: '', value: 1}]);
