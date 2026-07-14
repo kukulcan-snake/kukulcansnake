@@ -4,7 +4,7 @@ function ClientRoutes() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('你的GAS部署網址') // 請務必填入你 Apps Script 的最新部署網址
+    fetch('https://script.google.com/macros/s/AKfycbxoqaMojjuhvz73CsczAl5820sMPilGMoHboQxKwOC23actQng0-gt-nKS4CNdja2wk/exec') // 請務必填入你 Apps Script 的最新部署網址
       .then(res => res.json())
       .then(data => {
         if (Array.isArray(data)) {
