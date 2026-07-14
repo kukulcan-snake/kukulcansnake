@@ -13,20 +13,7 @@ import SourceSales from "./SourceSales";
 
 const url = 'https://script.google.com/macros/s/AKfycbxm7V8Y9af9txfn5nJAwl42DopwuS7OFRKOIeBF_1xZ6yTQZ_DhfJKYJ6kP7hfk_1u7/exec';
 
-const ClientRoutes = () => {
-    const [productLoading, setProductLoading] = useState(true);
-    const [products, setProducts] = useState([]);
-
-    useEffect(() => {
-        if (!products.length) {
-            fetchProduct();
-        }
-    }, []);
-
-    const fetchProduct = async () => {
-        console.log("fetching product data...");
-        setProductLoading(true);
-        const fetchProduct = async () => {
+const fetchProduct = async () => {
         console.log("fetching product data...");
         setProductLoading(true);
         try {
@@ -50,3 +37,45 @@ const ClientRoutes = () => {
             setProductLoading(false);
         }
     };
+
+    const fetchOrder = async (email = '', phone = '', name = '') => {
+        console.log("fetching order data...");
+        try {
+            const response = await axios.get(url + "?endpoint=orders/search&email=" + email + "&name=" + name + "&phone=" + phone);
+            return response.data || [];
+        } catch (error) {
+            console.error('Error fetching orders:', error);
+            return [];
+        }
+    };
+
+    const fetchCustomerNum = async (phone_number) => {
+        console.log("fetching customer order num...");
+        try {
+            const response = await axios.get(url + "?endpoint=customers/member-available/" + phone_number);
+            return response.data;
+        } catch (error) {
+            console.error('Error fetching customer num:', error);
+        }
+    };
+
+    const productInfo = {
+        loading: productLoading,
+        products: products,
+    };
+
+    return (
+        <Routes>
+            <Route element={<ClientLayout />}>
+                <Route path="/" element={<ClientHome />} />
+                <Route path="/product" element={<ProductsPage productInfo={productInfo} />} />
+                <Route path="/order" element={<OrderForm productInfo={productInfo} fetch={fetchCustomerNum} />} />
+                <Route path="/search" element={<SearchOrderPage productInfo={productInfo} fetch={fetchOrder} />} />
+                <Route path="/faq" element={<FAQPage />} />
+                <Route path="/source-sales" element={<SourceSales />} />
+            </Route>
+        </Routes>
+    );
+};
+
+export default ClientRoutes;
