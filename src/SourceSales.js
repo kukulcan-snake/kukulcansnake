@@ -71,7 +71,7 @@ const SourceSales = () => {
                             <td>{statistics.CLM[1]}</td>
                         </tr>
                         <tr>
-                            <td>3. 猫飼ってる_</td>
+                            <td>3. 猫飼</td>
                             <td>{statistics.MS[0]}</td>
                             <td>{statistics.MS[1]}</td>
                         </tr>
