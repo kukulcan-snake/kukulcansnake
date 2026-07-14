@@ -13,7 +13,17 @@ import SourceSales from "./SourceSales";
 
 const url = 'https://script.google.com/macros/s/AKfycbxm7V8Y9af9txfn5nJAwl42DopwuS7OFRKOIeBF_1xZ6yTQZ_DhfJKYJ6kP7hfk_1u7/exec';
 
-const fetchProduct = async () => {
+const ClientRoutes = () => {
+    const [productLoading, setProductLoading] = useState(true);
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        if (!products.length) {
+            fetchProduct();
+        }
+    }, []);
+
+    const fetchProduct = async () => {
         console.log("fetching product data...");
         setProductLoading(true);
         try {
