@@ -304,7 +304,9 @@ function OrderForm({productInfo, fetch}) {
 
                             <div className="cartWrapper">
                                 <CustomList
-                                    options={productInfo.products.map(product => product.name)}
+                                    options={productInfo.products && productInfo.products.length > 0 
+    ? productInfo.products.map(product => product.name) 
+    : []}
                                     items={items}
                                     setItems={setItems}
                                     productInfo={productInfo}
